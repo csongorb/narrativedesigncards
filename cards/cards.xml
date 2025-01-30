@@ -1,0 +1,1106 @@
+<?xml version="1.0"?>
+
+	<!--
+		==================================
+		Instructions
+		==================================
+
+		General
+			- change "&" to "&#x26;"
+			- change "'" to "&#x27;"
+
+		Links
+			- change "(" and ")" to "%28" and "%29"
+			- if the link contains any "&" or "<" or other strange characters wrap the link inbetween
+				- "<![CDATA[" and "]]>"
+
+		Title
+			- line break: "/"
+			- filenames are generated through the first line of the title
+				- filenames must be unique!
+				- use the attribute "forcedFilename" to define unique filenames!
+	-->
+
+<cards>
+
+	<!--
+		==================================
+		Narrative Design / General
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>0</cardCategoryId>
+		<title forcedFilename="narrativedesignporn">narrative design</title>
+		<text>arrange # think # discuss! # read between the cards!</text>
+		<link>http://en.wikipedia.org/wiki/Pornography</link>
+		<link><![CDATA[http://web.mit.edu/~21fms/People/henry3/games&narrative.html]]></link> <!-- Jenkins: Narrative Architecture -->
+		<link>https://www.gamedeveloper.com/design/designing-interactive-story-part-one-</link>
+		<link>https://www.gamedeveloper.com/design/designing-interactive-story-part-two-</link>
+		<link>http://venturebeat.com/2015/11/20/ea-star-wars-game-creators-amy-hennig-and-jade-raymond-reflect-on-game-storytelling/</link>
+		<link>http://www.youtube.com/playlist?list=PLhyKYa0YJ_5ATCznEwJx794x4RMuYNZLN</link> <!-- Extra Credit Playlist: Narrative -->
+		<link>https://www.gamedeveloper.com/design/richard-rouse-iii-s-6-techniques-to-make-game-narratives-more-dynamic</link>
+		<link>http://hitboxteam.com/designing-game-narrative</link>
+		<link>https://www-archiv.fdm.uni-hamburg.de/lhn/node/127.html</link>
+		<link>http://biologyofstory.com/</link>
+		<link>https://www.goodreads.com/review/list/40472585-csongor-baranyai?shelf=interactive-storytelling</link>
+		<link>http://leveldesignporn.csongorb.com</link>
+	</card>
+
+	<!--
+		==================================
+		Classic Narrative Structures
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>dramatic/structure</title>
+		<text>what is the dramatic structure? # what are its elements? # what are its connections? # characters? # examples?</text>
+		<link>https://www.wikiwand.com/de/Drama</link>
+		<link>texts/freytag_diefunfteiledesdramas.pdf</link>
+		<link><![CDATA[https://books.google.de/books?id=nD8PAQAAMAAJ&pg=PA114&redir_esc=y#v=onepage&q=Denouement&f=false]]></link> <!-- Freytag: Freytag's Technique of the Drama (P114ff) -->
+		<link>https://thewritepractice.com/freytags-pyramid/</link>
+		<link>https://prezi.com/ft6rkcrtm2rx/die-3-verknupfungsarten/</link>
+		<link>http://www.textlog.de/5858.html</link> <!-- Hegel: Die dramatische Poesie -->
+		<link>https://www.marxists.org/reference/archive/hegel/works/ae/part3-section3-chapter3.htm#c-c</link> <!-- Hegel: Dramatic Poetry -->
+		<link>https://www.wikiwand.com/en/Poetics_(Aristotle)</link>
+		<link>http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0056%3Asection%3D1447a</link> <!-- Aristotele: Poetics -->
+		<link>texts/rabenalt_anfangmitteende.pdf</link>
+		<link>texts/rabenalt_kollisionenundkonflikte.pdf</link>
+	</card>
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>epic/structure</title>
+		<text>what is the epic structure? # what are its elements? # what are its connections? # characters? # examples? # classification?</text>
+		<link>https://prezi.com/ft6rkcrtm2rx/die-3-verknupfungsarten/</link>
+		<link>http://www.textlog.de/5819.html</link> <!-- Hegel: Die epische Poesie -->
+		<link>https://www.marxists.org/reference/archive/hegel/works/ae/part3-section3-chapter3.htm#c-a</link> <!-- Hegel: Epic Poetry -->
+		<link>texts/rabenalt_episch.pdf</link>
+	</card>
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>lyrical/structure</title>
+		<text>what is the lyrical structure? # what are its elements? # what are its connections? # characters? # examples?</text>
+		<link>https://prezi.com/ft6rkcrtm2rx/die-3-verknupfungsarten/</link>
+		<link>https://www.wikiwand.com/en/Lyric_poetry</link>
+		<link>http://www.textlog.de/5835.html</link> <!-- Hegel: Die lyrische Poesie -->
+		<link>https://www.marxists.org/reference/archive/hegel/works/ae/part3-section3-chapter3.htm#c-b</link> <!-- Hegel: Lyric Poetry -->
+		<link>texts/strindberg_vorbemerkung.pdf</link>
+		<link>texts/rabenalt_dielogikdespoetischen.pdf</link>
+		<link>https://vimeo.com/153887315</link> <!-- Reka Bucsi: Symphony no. 42 -->
+		<link>texts/rabenalt_diephotographierteseele.pdf</link>
+		<link>https://web.archive.org/web/20240414072711/http://howtonotsuckatgamedesign.com/2016/01/surrealism/</link>
+		<link>https://www2.hawaii.edu/~freeman/courses/phil330/MANIFESTO%20OF%20SURREALISM.pdf</link>
+	</card>
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>dramaturgy</title>
+		<text>what is dramaturgy? # how does it work? # what kind of structures? # which media? # story vs. plot? # history?</text>
+		<link>http://dramaqueen.info/wiki/film-und-dramaturgie/</link>
+		<link>https://prezi.com/ljhylzepqgjj/dramaturgie-als-prinzip/</link>
+		<link>http://www.amazon.de/Filmdramaturgie-Peter-Rabenalt/dp/3895812439</link>
+		<link>http://www.ray-magazin.at/magazin/2011/11/filmdramaturgie-plaedoyer-fuer-das-epische</link>
+		<link>http://www.amazon.de/Handbuch-Filmdramaturgie-Bauchgef-hl-Babelsberger-Mediendramaturgie/dp/3631618824</link>
+		<link>http://www.amazon.de/Handbuch-Angewandter-Dramaturgie-Babelsberger-Mediendramaturgie/dp/3631641389</link>
+		<link>texts/rabenalt_anhang.pdf</link>
+		<link>https://www.wikiwand.com/en/Plot_(narrative)</link>
+		<link>https://www.goodreads.com/review/list/40472585-csongor-baranyai?shelf=dramaturgy</link>
+	</card>
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>analytic drama</title>
+		<text>structure? # stories? # examples? # stuctural similarities to?</text>
+		<link>https://archive.org/details/cu31924026208052</link> <!-- Thomas Moody Campbell: Hebbel, Ibsen and the analytical exposition -->
+		<link>texts/kaiserstutterheim_deranalytischefilm.pdf</link>
+		<link>http://dradiowissen.de/beitrag/archeogames-als-archaeologe-spielwelten-erforschen</link>
+		<link>http://de.wikipedia.org/wiki/Analytisches_Drama</link>
+	</card>
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title forcedFilename="herosjourney">the hero's/journey</title>
+		<text>stages? # archetypes? # examples? # criticism? # possible difficulties?</text>
+		<link>http://www.openculture.com/2015/08/48-hours-of-joseph-campbell-lectures-free-online.html</link>
+		<link>texts/vogler_thewritersjourney.pdf</link>
+		<link>https://www.wikiwand.com/en/Monomyth</link>
+		<link>https://www.youtube.com/watch?v=SWKKRbw-e4U</link> <!-- Extra Credits: Hero's Journey 1 -->
+		<link>https://www.youtube.com/watch?v=QVqT8s7bOTQ</link> <!-- Extra Credits: Hero's Journey 2 -->
+	</card>
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title forcedFilename="semiotics">semiotics</title>
+		<text>the concepts? # categories? # meaning of what?</text>
+		<link>https://en.wikipedia.org/wiki/Semiotics</link>
+		<link>https://www.youtube.com/watch?v=atHQpANmHCE</link> <!-- The Nerdwriter: What is The Treachery of Images? -->
+		<link>https://www.marxists.org/reference/subject/philosophy/works/fr/barthes.htm</link> <!-- Barthes: Elements of Semiology -->
+		<link>https://www.youtube.com/watch?v=aGYOHKCigAo </link> <!-- Little Art Talks: Semiotics -->
+		<link>https://plato.stanford.edu/entries/peirce-semiotics/</link>
+	</card>
+
+	<!--
+		==================================
+		Disciplines / Jobs
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title>narrative design</title>
+		<text>relation to game design? # relation to game writing? # responsibilities? # workflows?</text>
+		<link>http://eblong.com/zarf/essays/rule-based-if/</link>
+		<link>http://www.gdcvault.com/play/1015528/AI-driven-Dynamic-Dialog-through</link>
+		<link>https://www.youtube.com/watch?v=22HoViH4vOU</link> <!-- Extra Credits: How to start your game narrative? -->
+		<link>https://en.wikipedia.org/wiki/Narrative_designer</link> <!-- incl. the Dinehart links! -->
+		<link>https://web.archive.org/web/20160718170502/http://www.gamnesia.com/articles/narrative-design-in-video-games</link>
+		<link>https://www.gamedeveloper.com/design/open-sourcing-80-days-narrative-scripting-language-ink</link>
+		<link>http://gdcvault.com/play/1023221/Ink-The-Narrative-Scripting-Language</link>
+		<link>https://emshort.blog/2019/01/08/mailbag-self-training-in-narrative-design/</link>
+		<link>https://books.google.de/books?id=whnLCQAAQBAJ</link> <!-- Game Narrative Toolbox -->
+		<link>https://emshort.blog/2009/08/23/idea-to-implementation/</link>
+		<link>https://www.gdcvault.com/play/1020364/Ellie-Buddy-AI-in-The</link>
+		<link>https://gdcvault.com/play/1022305/The-Design-in-Narrative</link> <!-- Jurie Horneman: The Design in Narrative Design -->
+		<link>https://www.youtube.com/watch?v=o76JAP_9GkA</link> <!-- Kipnis: Dialog Systems in Double Fine Games -->
+		<link>https://www.gdcvault.com/play/1021774/Adventures-in-Text-Innovating-in</link>
+		<link>https://gdcvault.com/play/1026610/Game-Narrative-Summit-Storytelling-with</link> <!-- Kaitlin Tremblay: Storytelling with Verbs: Integrating Gameplay and Narrative -->
+		<link>https://gdcvault.com/play/1025314/Writing-and-Narrative-Design-A</link> <!-- Writing and Narrative Design: A Relationship (Molly Maloney, Eric Stirpe) -->
+	</card>
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title>game writing</title>
+		<text>relation to narrative design? # relation to level design? # responsibilities? # workflows?</text>
+		<link>http://www.igda.org/group/game-writing</link>
+		<link>https://www.youtube.com/watch?v=KG1ziCvLkJ0</link> <!-- Extra Credits: Bad Writing -->
+		<link>https://www.gamedeveloper.com/design/writing-i-firewatch-i-and-capturing-the-beauty-of-being-alone</link>
+		<link>https://www.gamedeveloper.com/design/the-gamasutra-20-top-game-writers</link>
+		<link>https://www.youtube.com/watch?v=UswwuR4_I4E</link> <!-- Firewatch Writing Q&A with Sean Vanaman -->
+		<link>https://www.idlethumbs.net/tonecontrol/episodes/tom-bissell</link>
+		<link>http://www.lizengland.com/blog/2014/04/the-door-problem/</link>
+		<link>https://falkoloeffler.de/computerspiele/game-writer-faq/</link>
+		<link>https://christianhuberts.de/2015/04/09/computerspiele-lesen/</link>
+		<link>https://www.gdcvault.com/play/1022101/Leading-Players-Astray-80-Days</link>
+		<link>http://www.intelligent-artifice.com/wp/wp-content/uploads/2015/03/Horneman_Jurie_The_Design_In.pdf</link>
+		<link>https://www.youtube.com/watch?v=fXNCVecpfiw</link> <!-- Writing the Warriors of Gears of War: Judgment -->
+		<link>https://www.gdcvault.com/play/1018004/Balancing-Act-Narrative-and-Mission</link>
+		<link>https://www.gdcvault.com/play/1022093/It-s-Not-in-the</link> <!-- It's Not in the Writer's Manual: A Q&A Session for New Writers -->
+		<link>http://tom-jubert.blogspot.com/</link>
+	</card>
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title>quest design</title>
+		<text>relation to game design? # relation to game writing? # relation to narrative design? # responsibilities? # workflows? # what types of games?</text>
+		<link><![CDATA[https://books.google.de/books?id=LFvNBQAAQBAJ&pg=PA1&source=gbs_toc_r&cad=4#v=onepage&q&f=false]]></link> <!-- Jeff Howard: Quests: Design, Theory, and History in Games and Narratives -->
+		<link>https://www.gamedeveloper.com/design/ghost-of-tsushima---the-art-of-compelling-quest-design</link>
+		<link>https://www.gamedeveloper.com/design/quest-design-in-linear-media</link>
+		<link>https://www.youtube.com/watch?v=g5TH9KakBDw</link> <!-- Paweł Sasko: Life, Love and Quest Design. Anatomy of Quests in The Witcher 3: Wild Hunt -->
+		<link>https://www.youtube.com/watch?v=otAkP5VjIv8</link> <!-- Extra Credits: Quest Design - I: Why Many MMOs Rely on Repetitive Grind Quests -->
+	</card>
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title>level design</title>
+		<text>relation to game design? # relation to game writing? # responsibilities? # workflows?</text>
+		<link>http://blog.joelburgess.com/2010/03/gdc-slides-level-designer-storyteller.html</link>
+		<link>http://www.youtube.com/watch?v=ILO-kzVEXj4</link>
+		<link>http://eat-games.tumblr.com/post/74979301279/interview-steve-gaynor</link>
+		<link>http://www.develop-online.net/news/get-that-job-daily-how-to-be-a-lead-level-designer/0188208</link>
+		<link>http://gropingtheelephant.com/blog/?p=1889</link>
+		<link>https://web.archive.org/web/20111124065031/http://www.worch.com/files/gdc/igda_sf_mworch_web.pdf</link>
+		<link>https://www.gamedeveloper.com/design/level-design-is-game-design</link>
+		<link>https://www.thefa.com/football-rules-governance/lawsandrules/laws/football-11-11/law-5---the-referee</link>
+		<link>https://www.wikiwand.com/en/Level_design</link>
+		<link>https://www.goodreads.com/review/list/40472585-csongor-baranyai?shelf=level-design</link>
+		<link>http://leveldesignporn.csongorb.com/</link>
+	</card>
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="characterenvironmentdesign">character &#x26;/environment/design</title>
+		<text>what is character design? # what is environmental design? # responsibilities? # relation to narratives?</text>
+		<link>https://www.youtube.com/watch?v=QKnNO5pxRGQ</link> <!-- Extra Credits: Myers Briggs and Character Creation -->
+		<link>https://blog.thimbleweedpark.com/character_sheet.html</link>
+		<link>https://web.archive.org/web/20240414081438/http://howtonotsuckatgamedesign.com/2016/02/friedrich-romanticism-and-games/</link>
+		<link>http://www.blog.radiator.debacle.us/2016/03/a-history-and-triumph-of-environment.html</link>
+		<link>http://gdcvault.com/play/1023556/Level-Design-Workshop-Building-Firewatch</link>
+		<link>http://gdcvault.com/play/1023191/Making-the-World-of</link> <!-- Jane Ng: ...Firewatch -->
+		<link>http://leveldesignporn.csongorb.com/environmentart.html</link>
+	</card>
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title>world design</title>
+		<text>what is world design? # relation to level design? # responsibilities? # workflows? # relation to other topics?</text>
+		<link>https://en.wikipedia.org/wiki/Development_of_Grand_Theft_Auto_V#Research_and_open_world_design</link>
+		<link>https://www.wikiwand.com/en/Fashion_design</link>
+		<link>http://www.peachpit.com/articles/article.aspx?p=1398008</link> <!-- Ernest Adams: Game Worlds -->
+		<link>https://www.google.de/search?q=skate+park+design&#x26;source=lnms&#x26;tbm=isch&#x26;sa=X&#x26;ei=mn9qU8yeCOia0QWAjoCYDA&#x26;ved=0CAgQ_AUoAQ&#x26;biw=1920&#x26;bih=1008#q=skatepark+designspell=1&#x26;tbm=isch</link>
+	</card>
+
+	<!--
+		==================================
+		Interactivity / Media Theory
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title forcedFilename="themevsmechanics">theme vs./mechanics</title>
+		<text>how are they connected? # what is it for? # examples? # difficulties? # classification?</text>
+		<link>http://clicknothing.typepad.com/click_nothing/2007/10/ludonarrative-d.html</link>
+		<link>https://www.gamedeveloper.com/design/how-to-find-your-gameplay-themes</link>
+		<link>http://en.wikipedia.org/wiki/Affordance</link>
+		<link>https://lostgarden.com/2011/10/03/triple-town-beta-now-with-bears/comment-page-1/</link>
+		<link>https://www.gamedeveloper.com/design/mechanics-vs-motif</link>
+		<link>https://www.gamedeveloper.com/design/defining-boundaries-creating-credible-obstacles-in-games</link>
+		<link>https://www.youtube.com/watch?v=0S43IwBF0uM</link> <!-- The Chemical Brothers: Star Guitar -->
+		<link>https://vimeo.com/1180080</link> <!-- Aram Bartholl: Speed -->
+		<link>http://asherv.com/threes/threemails/</link>
+		<link>https://www.gamedeveloper.com/design/affordance-design-in-half-life-2</link>
+		<link>https://www.gamedeveloper.com/design/practical-examples-for-marrying-theme-and-meaning</link>
+		<link>http://tvtropes.org/pmwiki/pmwiki.php/Main/InsurmountableWaistHeightFence</link>
+		<link>http://www.rockpapershotgun.com/2009/04/21/locked-door/</link>
+		<link>https://www.gamedeveloper.com/design/archetypical-spaces-part-1</link>
+		<link>https://www.gamedeveloper.com/design/archetypical-spaces-part-2-the-wilderness</link>
+		<link>https://www.gamedeveloper.com/business/archetypical-spaces-part-3-the-maze</link>
+		<link>http://critical-gaming.blogspot.com/2008/07/organic-and-inorganic-design.html</link>
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>half-real</title>
+		<text>what does half-real mean? # what is real? # what is fictional? # relation to other topics? # examples? # impacts?</text>
+		<link>texts/juul_rulesandfiction.pdf</link>
+		<link>http://www.half-real.net/</link>
+		<link>https://web.archive.org/web/20231207225407/http://www.ssoar.info/ssoar/bitstream/handle/document/22753/ssoar-eurjcultstud-2008-2-kucklich-review_jesper_juul.pdf</link>
+		<link>http://www.popmatters.com/post/112260-half-real/</link>
+		<link>http://rangedtouch.com/2018/06/07/1-juul-half-real/</link>
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title forcedFilename="playervsdesignerstory">player vs./designer story</title>
+		<text>what is a player story? # what is a designer story? # overlappings? # examples?</text>
+		<link>http://www.worch.com/2012/03/12/player-stories-and-designer-stories-download/</link>
+		<link>http://www.fullbrightdesign.com/2009/01/storymaking.html</link>
+		<link>https://www.gamedev.net/tutorials/game-design/game-design-and-theory/using-low-level-stories-r1511/</link>
+		<link>http://www.gdcvault.com/play/1014657/Player-Driven-Stories-How-Do</link> <!-- Player-Driven Stories: How Do We Get There? / Kent Hudson -->
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>emotions</title>
+		<text>different media, different emotions? # categorisation? # examples?</text>
+		<link>texts/brecht_ueberexperimentellestheater.pdf</link>
+		<link>texts/rabenalt_affekte.pdf</link>
+		<link>texts/rosenkranz_highscorederemotionen.pdf</link>
+		<link>http://www.derwulff.de/files/2-120.pdf</link> <!-- Hans J. Wulff: Empathie als Dimension des Filmferstehens -->
+		<link>http://blog.ihobo.com/2011/12/stories-and-games-2-the-emotions-of-play.html</link>
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>experience/as story</title>
+		<text>tell? show? let do? # experience as story? # in other media? # the active viewer? # examples?</text>
+		<link>https://www.gamedeveloper.com/design/better-game-stories-in-one-step</link>
+		<link>http://www.davidbordwell.net/articles/Bordwell_Iris_no9_spring1989_11.pdf</link>
+		<link>https://www.gamedeveloper.com/design/street-fighter-is-one-of-the-greatest-story-telling-games</link>
+		<link>http://polyneux.de/2013/01/04/zufallsgeschichten-minecraft/</link>
+		<link>http://www.polygon.com/2016/4/5/11346848/the-true-history-of-eve-online-empires-of-eve-andrew-groen</link>
+		<link>https://prezi.com/3wxapjl33ga2/experienceasprinciple_160114/</link>
+		<link>http://gamedesignreviews.com/reviews/sword-of-mana-do-dont-show/</link>
+		<link>https://www-archiv.fdm.uni-hamburg.de/lhn/node/84.html</link>
+		<link>http://gdcvault.com/play/1023503/THE-GAME-DESIGN-CHALLENGE-The</link>
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>replay stories</title>
+		<text>what are replay stories? # games inspiring film? # what is the story of a game? # examples? # relation to roguelikes?</text>
+		<link>http://theoryfighter.blogspot.de/2012/08/babycastles-summit-bill-murray-theory.html</link>
+		<link>http://inventingthemedium.com/2013/05/13/narrative-design-example-life-after-life/</link>
+		<link>http://inventingthemedium.com/2013/05/18/replay-story-structure-life-after-life-2/</link>
+		<link>http://inventingthemedium.com/2013/05/15/six-key-design-strategies-for-replay-stories/</link>
+		<link>http://inventingthemedium.com/2013/05/28/arrested-development-as-multiple-pov-replay-story/</link>
+		<link>http://de.wikipedia.org/wiki/Smoking_/_No_Smoking</link>
+		<link>http://intimateexchanges.alanayckbourn.net/styled-10/page18.html</link>
+		<link>https://www.youtube.com/watch?v=tSVeDx9fk60</link> <!-- Trailer: Groundhog Day -->
+		<link>https://www.youtube.com/watch?v=Vq31IwKZkt0</link> <!-- Mechner: Remaking Karateka -->
+		<link>http://paperdino.com/save-the-date/</link>
+		<link>https://www-archiv.fdm.uni-hamburg.de/lhn/node/54.html</link>
+		<link>https://ifdb.org/viewgame?id=j49crlvd62mhwuzu</link> <!-- Sam Barlow: Aisle -->
+		<link>https://www.reddit.com/r/truegaming/comments/z1h8d/the_bill_murray_theory_of_game_design/</link>
+		<link>https://w.itch.io/end-of-the-world</link>
+		<link>https://elsinoregame.com/</link>
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title forcedFilename="sujetanddiversity">sujet &#x26;/diversity</title>
+		<text>are games reflecting the world? # how is the medium evolving?</text>
+		<link>https://www.wikiwand.com/de/Sujet</link>
+		<link>texts/leschke_phasenmedienwissenschaftlichertheoriebildung.pdf</link>
+		<link>http://www.theguardian.com/culture/2015/nov/16/nina-freeman-punk-poet-game-designer-cibele-interview</link>
+		<link>https://motherboard.vice.com/read/the-games-that-are-too-underground-to-be-indie</link>
+		<link>http://www.gdcvault.com/play/1018080/</link> <!-- #1reasontobe (GDC13) -->
+		<link>http://www.gdcvault.com/play/1020902/</link> <!-- #1reasontobe (GDCEurope14) -->
+		<link>http://gdcvault.com/play/1023214/The-Current-State-of-Muslim</link> <!-- #1reasontobe (GDC16) -->
+		<link>http://videogameninjas.tumblr.com/</link>
+		<link>https://www.youtube.com/watch?v=HQLW4VvVQC0</link> <!-- Nina Freeman @ Amaze 2015 -->
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title forcedFilename="fictionordocumentary">fiction or/documentary</title>
+		<text>how to capture the world? # how does the medium capture the world? # does it have an effect on the world? # can games be documentary?</text>
+		<link>https://offscreen.com/view/bazin4</link> <!-- Totaro: Introduction to André Bazin, Part 1: Theory of Film Style in its Historical Context -->
+		<link>https://library.oapen.org/bitstream/id/f5bcdbfe-57e4-4695-a8c0-9561266ff30e/1005801.pdf</link> <!-- Blandine Joret: Studying Film With Andre Bazin -->
+		<link>https://www.youtube.com/watch?v=0R7R0JHvvgo</link> <!-- Breaking The Rules - The French New Wave | The Cinema Cartography -->
+		<link>https://www.youtube.com/watch?v=hlvKsk9iDy0</link> <!-- The Whole Equation: Scorsese and the French New Wave -->
+		<link>https://www.gamesforchange.org/games/</link>
+		<link>http://bogost.com/downloads/bogost%20poremba%20can%20games%20get%20real.pdf</link> <!-- Bogost & Poremba: Can Games get Real? A Closer Look at “Documentary” Digital Games -->
+		<link>https://unwinnable.com/2018/03/02/deliverance-myth-making-and-historical-accuracy/</link>
+		<link>https://www.stiftung-digitale-spielekultur.de/app/uploads/2020/08/SDK_Erinnern-mit-Games_bfrei.pdf</link>
+		<link>https://www.viewjournal.eu/6/volume/5/issue/10/</link> <!-- View: Non-fiction Transmedia - Volume 5 -->
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>story vs. system</title>
+		<text>going through the system? # what is human? # is the world systemic? # is our experience linear?</text>
+		<link>http://biologyofstory.com/#/main?id=living-is-a-story-thing</link>
+		<link>http://ericzimmerman.wordpress.com/2013/09/12/whats-wrong-with-the-ludic-century/</link>
+		<link>http://bogost.com/writing/blog/on_the_manifesto_for_a_ludic_c/</link>
+		<link>http://kotaku.com/will-the-21st-century-be-defined-by-games-1293867009</link>
+		<link>https://web.archive.org/web/20240420130206/http://www.thefunctionalart.com/2013/02/storytelling-with-data-visualization.html</link>
+		<link>http://www.amazon.de/The-Storytelling-Animal-Stories-Human/dp/0544002342</link>
+		<link>https://www.youtube.com/watch?v=0hoeAmqwvyY</link> <!-- Extra Credits: How Games Prepare You for Life -->
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>aesthetics</title>
+		<text>what is the message model of games? # how are media communicating? # categorisation? # history?</text>
+		<link>https://www.wikiwand.com/en/Shannon%E2%80%93Weaver_model</link>
+		<link>http://www.youtube.com/watch?v=netYNUAq_ZQ</link> <!-- Introversion Software (Prison Architect): Kotaku Discussion -->
+		<link>http://www.metafilter.com/136223/The-ethics-of-Prison-Architect</link>
+		<link>http://www.bogost.com/writing/videogames_are_a_mess.shtml</link>
+		<link>http://gamescriticism.org/articles/keogh-1-1</link>
+		<link>https://medium.com/wisdom-of-video-games/4c27db1c9da3</link>
+		<link>http://gamestudies.org/1103/articles/sicart_ap</link>
+		<link>texts/koster_howthebrainworks.pdf</link>
+		<link>texts/koster_whatgamesare.pdf</link>
+		<link>texts/koster_whatgamesteachus.pdf</link>
+		<link>texts/eco_diepoetikdesoffenenkunstwerks.pdf</link>
+		<link>https://www.bu.edu/arion/files/2010/10/Barolsky_20Sept2010_Layout-1.pdf</link>
+		<link>http://www.cs.northwestern.edu/~hunicke/MDA.pdf</link>
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title forcedFilename="ludologyvsnarratology">ludology vs./narratology</title>
+		<text>what is ludology? # what is narratology? # history? # game studies? # the situation today?</text>
+		<link>https://gamestudiesbook.net/2008/06/01/ludology-meets-narratology/</link>
+		<link>https://ludology.typepad.com/weblog/articles/VGT_final.pdf</link>
+		<link>http://bogost.com/writing/videogames_are_a_mess/</link>
+		<link>http://www.gamestudies.org/0101/juul-gts/</link>
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>authorship</title>
+		<text>what is the relationship between designer, game and player? # history? # expression?</text>
+		<link>https://www.youtube.com/watch?v=nfHnuZqtV68</link> <!-- Filmmaker IQ: The Origins of Auteur Theory -->
+		<link>https://www.youtube.com/watch?v=0R7R0JHvvgo</link> <!-- Channel Criswell: Breaking the Rules -->
+		<link>https://christandpopculture.com/god-the-game-designer/</link>
+		<link>https://www.clicknothing.com/click_nothing/2007/08/on-authorship-i.html</link>
+		<link>https://www.bloomsbury.com/us/series/influential-video-game-designers/</link>
+		<link>texts/wolf_imagodei.pdf</link>
+		<link>texts/deWinter_Miyamoto_Foreword.pdf</link>
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>atmosphere</title>
+		<text>being there? # game feel? # categorisation? # how to achieve? # relationship to other topics?</text>
+		<link>https://www.gdcvault.com/play/1015556/Creating-Atmosphere-in</link> <!-- GDC 2012: Greg Kasavin about Bastion -->
+		<link>https://www.gamedeveloper.com/design/atmosphere-in-games---part-1---atmosphere-introduced</link>
+		<link>https://philpapers.org/archive/BHMAAT-3</link> <!-- Gernot Böhme: Atmospheric Architectures -->
+		<link>http://leveldesignporn.csongorb.com/space.html</link>
+	</card>
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>adaptation</title>
+		<text>what remains? # from/to? # history?</text>
+		<link>https://www.youtube.com/watch?v=nfHnuZqtV68</link>
+		<link>https://www.amazon.de/Film-Literature-Introduction-Timothy-Corrigan/dp/0415560101</link>
+		<link>https://www.amazon.de/Theory-Adaptation-Linda-Hutcheon/dp/0415539382</link>
+		<link>https://www.youtube.com/watch?v=wcJIhF12kuE</link> <!-- Matt Alberhasky: Adaptation Introduction -->
+		<link>http://freyermuth.com/adaptation/</link>
+		<link>https://books.google.de/books?id=f1kxBwAAQBAJ&#x26;printsec=frontcover#v=onepage&#x26;q&#x26;f=false</link> <!-- The Silk Road of Adaptation -->
+		<link>https://www.youtube.com/watch?v=RcUbidL8UX8</link> <!-- Dr. Richard Feist talks on Film Adaptation Theory: The Basics -->
+	</card>
+
+	<!--
+		==================================
+		Storyworlds
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title forcedFilename="worldbuilding">worldbuilding</title>
+		<text>what kind of an activity is worldbuilding? # why do we do this? # relation to other topics?</text>
+		<link>https://www.youtube.com/watch?v=mA6MQHNM2yE</link> <!-- Nerdwriter1: Middle Earth and The Perils of Worldbuilding -->
+		<link>https://gdcvault.com/play/1024890/10-Years-of-Evolution-of</link> <!-- 10 Years of Evolution of the 'Assassin's Creed' Brand / Jean Guesdon -->
+		<link>texts/wolf_humanactivity.pdf</link>
+		<link>texts/wolf_imagodei.pdf</link>
+		<link>texts/freyermuth_worldbuilding.pdf</link>
+		<link>texts/deWinter_Miyamoto_SpacialNarratives.pdf</link>
+		<link>https://www.gdcvault.com/play/1013668/Imaginary-Places-Strange-Maps-and</link> <!-- Bernd Diemer: Imaginary Places, Strange Maps, and How Pop Culture... -->
+		<link>https://www.gdcvault.com/play/1014921/Simulacra-Canny-and-Uncanny-Immersion</link> <!-- Bernd Diemer:  -->
+	</card>
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title forcedFilename="storyworldsandbibles">storyworlds &#x26;/storybibles</title>
+		<text>what defines a storyworld? # what is in a storyworld? # classification? # story vs. world? # documents and their structure? # examples?</text>
+		<link>http://en.wikipedia.org/wiki/Worldbuilding</link>
+		<link>http://en.wikipedia.org/wiki/Bible_%28writing%29</link>
+		<link>https://www.gamedeveloper.com/design/building-a-basic-story-bible-for-your-game</link>
+		<link>https://joergihle.de/presse/innomedien/</link>
+		<link>texts/wolf_characteristics.pdf</link>
+		<link>texts/wolf_structures.pdf</link>
+		<link>https://koboldpress.com/kpstore/product/kobold-guide-to-worldbuilding/</link>
+		<link>http://darrellhardy.com/blog/2013/03/12/storyworld-architecture-101/</link>
+		<link>http://guyhasson.wordpress.com/2011/06/20/story-design-tips-5-articles-about-world-building/</link>
+		<link>http://en.wikipedia.org/wiki/Fictional_universe</link>
+		<link>https://en.wikipedia.org/wiki/Na%27vi_language</link>
+		<link>http://www.zamonien.de/lexikon.php</link>
+		<link>https://prezi.com/_mtgi7uv_49c/storyworlds_160204/</link>
+		<link>https://www.reddit.com/r/worldbuilding/</link>
+		<link>http://www.raphkoster.com/gaming/laws.shtml</link>
+		<link>http://leveldesignporn.csongorb.com/worldbuilding.html</link>
+	</card>
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title forcedFilename="provsretroactive">pro- vs./retro-active</title>
+		<text>what is that? # pros and cons? # user participation? # examples? # analysis?</text>
+		<link>https://www.wired.com/2008/09/ff-starwarscanon-gallery/</link>
+		<link>https://www.wired.com/2010/11/jeff-gomez-reveals-secrets-to-transmedia-franchise-development-at-cinekid/</link>
+		<link>http://en.wikipedia.org/wiki/The_History_of_Middle-earth</link>
+		<link>http://en.wikipedia.org/wiki/Retroactive_continuity</link>
+		<link>https://www.youtube.com/watch?v=VUm0Lo6DL-E</link> <!-- The Star Wars Expanded Universe: Past, Present, and Future -->
+		<link>http://starwars.wikia.com/wiki/Canon</link>
+	</card>
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title forcedFilename="evolutionofstoryworlds">evolution of/storyworlds</title>
+		<text>evolution? # media history &#x26; media studies? # examples? # why are there so many storyworlds? # are there so many storyworlds? # connection to games? # literacy?</text>
+		<link>https://kotaku.com/manifesto-the-21st-century-will-be-defined-by-games-1275355204</link>
+		<link>https://books.google.de/books?id=RlRVNikT06YC</link> <!-- Henry Jenkins: Convergence Culture -->
+		<link>http://www.bogost.com/blog/on_the_manifesto_for_a_ludic_c.shtml</link>
+		<link>http://www.amazon.de/Building-Imaginary-Worlds-History-Subcreation/dp/0415631203</link>
+		<link>http://www.worch.com/2013/04/24/talking-to-the-player-how-cultural-currents-shape-and-level-design/</link>
+		<link>texts/freyermuth_transmedia_twelfepostulates_1to6.pdf</link>
+		<link>http://www.blog.radiator.debacle.us/2016/03/a-history-and-triumph-of-environment.html</link>
+	</card>
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title>writers room</title>
+		<text>why is it needed? # structure? # history?</text>
+		<link>https://www.gamedeveloper.com/design/leading-a-game-writer-s-room</link>
+		<link>https://www.gamedeveloper.com/design/video-building-a-writer-s-room-for-i-life-is-strange-before-the-storm-i-</link>
+		<link>https://starwars.fandom.com/wiki/Lucasfilm_Story_Group</link>
+	</card>
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title>simulation</title>
+		<text>world as simulation? # vs. world as content? # world as experience? # world as living in a simulation? # social spaces?</text>
+		<link>https://gdcvault.com/play/1024514/Building-Worlds-Using</link> <!-- Building Worlds Using Math(s) - Sean Murray -->
+		<link>https://www.theverge.com/2020/11/16/21570454/lil-nas-x-roblox-concert-33-million-views</link>
+		<link>https://www.theverge.com/2020/9/8/21423004/fortnite-party-royale-concert-series-dominic-fike</link>
+		<link>texts/freyermuth_transmedia_twelfepostulates_simulation.pdf</link>
+		<link>https://www.researchgate.net/publication/2324983_Notes_On_Object-Oriented_Modeling_And_Design</link>
+		<link>texts/Brand_TheLastWholeEarthCatalog_Systems.pdf</link>
+		<link>https://en.wikipedia.org/wiki/Simulacra_and_Simulation</link>
+		<link>texts/Fullerton_GDWorkshop_SystemDynamics.pdf</link>
+		<link>texts/Johnson_Emergence.pdf</link>
+		<link>texts/Johnson_Emergence_Control.pdf</link>
+		<link>texts/Juul_HalfReal_ProgrAndEmergence.pdf</link>
+	</card>
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title>myth building</title>
+		<text>designer or viewer? # relationship to lore? # what is lore? # how to design for myth-building?</text>
+		<link>https://www.dictionary.com/browse/lore</link>
+		<link>https://en.wikipedia.org/wiki/Myth</link>
+		<link>https://soundcloud.com/usc-annenberg-231821092/in-conversation-with-jeff-gomez</link>
+	</card>
+
+	<!--
+		==================================
+		Related Disciplines
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title>film</title>
+		<text>how is film communicating? # what kind of stories are possible? # relation to games? # categorisation? # examples?</text>
+		<link>https://books.google.de/books?id=_B9jz5DLpIAC&#x26;printsec=frontcover</link> <!-- Aumont / Bergala / Marie / Vernet: Aesthetics of Film -->
+		<link>https://www.amazon.com/Hitchcock-Revised-Francois-Truffaut/dp/0671604295</link> <!-- Mr. Hitchcock, wie haben Sie das gemacht? -->
+		<link>https://www.youtube.com/watch?v=OAH0MoAv2CI</link> <!-- Cuts & Transitions 101 -->
+		<link>https://www.youtube.com/watch?v=aXgFcNUWqX0</link> <!-- Colour in Storytelling -->
+		<link>https://www.youtube.com/watch?v=NG0V7EVFZt4</link> <!-- Hitchcock explains Cutting -->
+		<link>https://prezi.com/ljhylzepqgjj/dramaturgie-als-prinzip/</link>
+		<link>https://www.amazon.com/How-Read-Film-Multimedia-Language/dp/019513981X/</link> <!-- Film verstehen -->
+		<link>http://www.davidbordwell.net/blog/</link>
+		<link>https://www.amazon.com/What-Cinema-II-Andr%C3%A9-Bazin/dp/0520242289</link>
+		<link>http://www.montagetheorie.de/index_resources/theory/texte_beller/beller_montage/Beller_Montage_2005.html</link>
+	</card>
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title>comics</title>
+		<text>how are comics communicating? # what kind of stories are possible? # relation to games? # interactivity? # examples?</text>
+		<link>https://prezi.com/ljhylzepqgjj/dramaturgie-als-prinzip/</link>
+		<link>http://zarfhome.com/meanwhile/</link>
+		<link>texts/scottmccloud_closure.pdf</link>
+		<link>texts/scottmccloud_whatiscomics.pdf</link>
+		<link>http://www.nybooks.com/articles/2012/12/20/triumph-comic-book-novel/</link>
+		<link>https://31.media.tumblr.com/tumblr_m5idvgdqxd1r89tu2o1_1280.jpg</link> <!-- Cris Ware Comic -->
+		<link>http://socks-studio.com/img/blog/JC_backjacket.jpg</link> <!-- Cris Ware Comic -->
+	</card>
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title>theater</title>
+		<text>how is theater communicating? # actors vs. audience? # what kind of stories are possible? # relation to games? # interactivity? # examples?</text>
+		<link>https://www.gamedeveloper.com/design/persuasive-games-performative-play</link>
+		<link>https://newmediamayhem.wordpress.com/2015/06/15/play-performance-and-community-an-introduction-to-lets-play-culture/</link>
+		<link>https://www.wikiwand.com/en/Commedia_dell%27arte</link>
+		<link>https://www.wikiwand.com/en/History_of_theatre</link>
+		<link>https://pdfs.semanticscholar.org/e4a0/55721a47d218f85948756d0746002484c2c5.pdf</link> <!-- Fernandez-Vara: Play's the Thing -->
+		<link>https://www.amazon.com/Impro-Improvisation-Theatre-Keith-Johnstone/dp/0878301178</link>
+	</card>
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title>transmedia</title>
+		<text>what is transmedia? # definition? # classification? # examples? # related issues? # how is transmedia communicating? # what kind of stories are possible? # relation to games?</text>
+		<link>http://en.wikipedia.org/wiki/Transmedia_storytelling</link>
+		<link>https://prezi.com/9uh_7mie9u60/transmedia/</link> <!-- Csongor Baranyai -->
+		<link>https://www.goodreads.com/review/list/40472585-csongor-baranyai?shelf=transmedia</link>
+		<link>http://4dfiction.com/2011/03/your-mom-is-transmedia/</link>
+		<link>https://www.researchgate.net/publication/256600225_Transmedia_Practice_Theorising_the_Practice_of_Expressing_a_Fictional_World_across_Distinct_Media_and_Environments</link> <!-- Christy Dena -->
+		<link>https://talkingobjects.files.wordpress.com/2011/08/book-by-max-giovagnoli-transmedia-storytelling-imagery-shapes-and-techniques1.pdf</link>
+		<link>http://henryjenkins.org/2007/03/transmedia_storytelling_101.html</link>
+		<link>http://henryjenkins.org/2011/08/defining_transmedia_further_re.html</link>
+		<link>http://henryjenkins.org/2009/12/the_revenge_of_the_origami_uni.html</link>
+		<link>http://henryjenkins.org/2009/12/revenge_of_the_origami_unicorn.html</link>
+		<link>https://books.google.de/books?id=RlRVNikT06YC</link> <!-- Jenkins: Convergence Culture -->
+		<link>https://cmsw.mit.edu/transmedia-storytelling-jim-henson-company/</link>
+		<link>https://www.amazon.de/The-Art-Immersion-Generation-Hollywood/dp/0393341259</link>
+		<link>https://www.slideshare.net/Simon99/the-year-in-now-media-2018</link>
+		<link>https://www.degruyter.com/document/doi/10.1515/9789048525317/html</link> <!-- World Building: Transmedia, Fans, Industries -->
+		<link>https://deusexmachinatio.com/store</link>
+		<link>https://www.torinofilmlab.it/news/open-calls-selections/tfl-book-on-audience-design-available-on-line-</link>
+		<link>https://www.slideshare.net/Bleedinedge/how-to-be-a-super-producer-in-a-multiplatform-world-itf</link>
+		<link>https://www.slideshare.net/ProjectFactoryUK/x-summit-super-producer</link>
+		<link>texts/freyermuth_transmedia_twelfepostulates_7to12.pdf</link>
+	</card>
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title>theme park/design</title>
+		<text>how are theme parks communicating? # what kind of stories are possible? # examples?</text>
+		<link>https://www.gamedeveloper.com/design/environmental-storytelling</link>
+		<link>http://gdcvault.com/play/1305/Everything-I-Learned-About-Level</link>
+		<link>http://mrbossdesign.blogspot.de/2009/03/everything-i-learned-about-game-design.html</link>
+		<link>http://passport2dreams.blogspot.com/2010/12/third-queue.html</link>
+		<link>http://en.wikipedia.org/wiki/Queue_area</link>
+		<link>https://boingboing.net/2016/01/21/a-peek-into-disneylands-dead.html</link>
+		<link>https://headgum.com/the-jeff-rubin-jeff-rubin-show/international-theme-parks-explored</link>
+		<link>https://themedenvironments.blogspot.com/2021/03/theme-park-101-ten-principles-of.html</link>
+	</card>
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title>playground/design</title>
+		<text>storytelling? # open world? # consideration of skills? # cooperation &#x26; competition? # what are the mechanics? # examples? # toy vs. game?</text>
+		<link>https://web.archive.org/web/20220526015107/http://www.beltzig-playdesign.de/indexd.html</link>
+		<link>http://www.designingforplay.blogspot.de/</link>
+		<link>http://www.corvus-design.com/category/design-with-play/</link>
+		<link>https://web.archive.org/web/20221206180423/http://www.play-scapes.com/play-design/contemporary-design/woodthorpe-grange-playground-keita-takahashi-nottingham-uk-proposed/</link>
+		<link>http://www.blog.radiator.debacle.us/2013/03/course-catalog-at-radiator-university.html</link>
+		<link>https://www.google.de/search?q=skate+park+design</link>
+		<link>http://architekturfuerkinder.ch/</link>
+		<link>https://www.deepfun.com/articles/</link>
+	</card>
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title forcedFilename="museumplanning">museum/planning</title>
+		<text>how are museums telling stories? # what kind of stories? # relation to games? # examples?</text>
+		<link>http://www.transcript-verlag.de/978-3-89942-814-8/museumsanalyse?c=746</link>
+		<link>http://www.transcript-verlag.de/978-3-8376-1600-2/die-ausstellung-als-drama?c=134</link>
+		<link>http://www.transcript-verlag.de/978-3-89942-192-7/medium-ausstellung?c=746</link>
+		<link>http://de.wikipedia.org/wiki/Museumsp%C3%A4dagogik</link>
+		<link>https://en.wikipedia.org/wiki/Museum_education</link>
+		<link>http://www.deutsches-museum.de/verlag/aus-der-forschung/pus/</link>
+		<link>http://smithsonianquests.org/</link>
+		<link>https://killscreen.com/articles/game-design-ikea/</link>
+		<link>http://fallout.wikia.com/wiki/Museum_of_Technology</link>
+		<link>https://www.polygon.com/2021/1/24/22244838/video-game-museums-the-last-of-us-miles-morales</link>
+	</card>
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title>crime fiction</title>
+		<text>what is the structure of crime fiction? # relation other topics? # examples?</text>
+		<link>https://prezi.com/ss-rwai08utl/the-transmedia-storyteller-as-crime-writer/</link>
+		<link>https://pdfcoffee.com/61393016-w7-todorov-typology-of-detective-fiction-pdf-free.html</link> <!-- Todorov -->
+		<link>http://www.amazon.de/Der-Kriminalroman-Theorie-Geschichte-Uni-Taschenb%C3%BCcher/dp/3825281477</link>
+		<link>http://www.amazon.de/Spurensuche-Kriminalroman-Entwicklung-Anf%C3%A4ngen-Gegenwart/dp/3828883923/</link>
+		<link>https://www.wikiwand.com/de/Kriminalroman#/Entwicklung_von_Untergattungen</link>
+		<link>https://medium.com/@csongorb/der-transmedia-storyteller-als-krimiautor-a73742aa188</link>
+	</card>
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title>architecture</title>
+		<text>the story of the city? # environmental storytelling? # examples? # other analogies?</text>
+		<link>https://www.gamedeveloper.com/design/game-cities-five-equally-essential-books</link>
+		<link>https://www.gamedeveloper.com/design/designer-s-notebook-the-role-of-architecture-in-videogames</link>
+		<link>https://www.gamedeveloper.com/design/towards-a-digital-architecture</link>
+		<link>https://gdcvault.com/play/1025176/Level-Design-Workshop-An-Architectural</link> <!-- Christopher Totten -->
+		<link>http://books.google.de/books?id=pZ50MeEQRAoC&#x26;printsec=frontcover&#x26;hl=de&#x26;source=gbs_atb#v=onepage&#x26;q&#x26;f=false</link> <!-- Experiencing Architecture -->
+		<link>http://www.heise.de/tp/artikel/23/23589/1.html</link> <!-- Baustelle Computerspiel -->
+		<link>https://gdcvault.com/play/1025311/World-Building-with</link> <!-- World Building with Architecture - Sarah Bonser -->
+		<link>http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470057440.html</link>
+		<link>https://www.gamedeveloper.com/design/archetypical-spaces-part-1</link>
+		<link>https://www.gamedeveloper.com/design/archetypical-spaces-part-2-the-wilderness</link>
+		<link>https://www.gamedeveloper.com/business/archetypical-spaces-part-3-the-maze</link>
+		<link>http://www.alphr.com/games/1002937/from-dark-souls-to-manifold-garden-how-games-tell-stories-through-architecture</link>
+	</card>
+
+	<!--
+		==================================
+		Narrative Systems / Narrative Mechanics
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>adventure games</title>
+		<text>what is the narrative system of adventure games? # how does it structure story? # categorisation? # how to make an adventure game? # puzzle design? # examples?</text>
+		<link>https://blog.thimbleweedpark.com/story_layout.html</link>
+		<link>http://grumpygamer.com/why_adventure_games_suck</link>
+		<link>https://blog.thimbleweedpark.com/wireframing.html</link>
+		<link>https://www.reddit.com/r/gamedesign/comments/3dtmg8/resources_for_creating_adventure_games_by_ron/</link>
+		<link>https://www.gamedeveloper.com/design/the-scumm-diary-stories-behind-one-of-the-greatest-game-engines-ever-made</link>
+		<link>http://www.theverge.com/2016/3/17/11252220/thimbleweed-park-ron-gilbert-interview</link>
+		<link>https://www.gamedeveloper.com/design/designing-and-integrating-puzzles-in-action-adventure-games</link>
+		<link>http://junk.dk/puzzle/</link>
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>branching</title>
+		<text>what is the narrative design of branching? # how does it structure story? # what kind of stories are possible? # why so popular? # categorization? # history?</text>
+		<link>http://www.situatedresearch.com/blog/2013/09/myst-gta-v-rockstar-nails-branching-narrative/</link>
+		<link>http://mycours.es/gamedesign2012/48-2/branching-narrative-from-borges-to-the-hypertext/</link>
+		<link>http://www.polygon.com/2016/3/14/11223458/gdc-2016-panel-narrative-innovation-showcase-storytelling</link>
+		<link>http://gdcvault.com/play/1023095/The-Shapes-in-Your-Story</link>
+		<link>http://twinery.org/</link>
+		<link>https://web.archive.org/web/20240928031306/https://samizdat.co/cyoa/</link>
+		<!-- <link>http://www.game-investigators.de/zombiismus/</link> -->
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>environmental/storytelling</title>
+		<text>what is environmental storytelling? # spacial information distribution? # the whole is more than the sum of it&#x27;s parts? # classification? # methods &#x26; theories? # examples? # pattern recognition &#x26; causality? # interpretation &#x26; misinterpretation?</text>
+		<link>https://www.slideshare.net/mnerurkar/experiencing-environments</link>
+		<link>http://www.worch.com/2010/03/11/gdc-2010/</link>
+		<link>http://www.slideshare.net/LevelDesigninaDay/gdc-2010-level-design-in-a-day-part-6-level-designer-storyteller-joel-burgess-senior-designer-bethesda-game-studios</link>
+		<link>https://www.semanticscholar.org/paper/Game-Design-as-Narrative-Architecture-Jenkins/f82f061e7a44530d1dee281b96d9b1640485aa74</link>
+		<link>http://scalar.usc.edu/works/interactive-storytelling-narrative-techniques-and-methods-in-video-games/environmental-storytelling</link>
+		<link>http://www.paidia.de/?p=4027</link>
+		<link>http://pixeldiskurs.de/2017/11/13/themenreihe-world-building-game-architecture/</link>
+		<link>http://www.jethrojongeneel.com/articles/T3.php</link>
+		<link>https://www.nachtkritik.de/index.php?option=com_content&#x26;view=article&#x26;id=10580:thomas-oberender&#x26;catid=53:portraet-a-profil&#x26;Itemid=83</link>
+		<link>https://www.gdcvault.com/play/1017639/AAA-Level-Design-in-a</link> <!-- Gaynor: In-Level Storytelling -->
+		<link>https://www.youtube.com/watch?v=bg8ugV2GbeE</link> <!-- Game Makers Toolkit: How Level Design Can Tell a Story? -->
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title forcedFilename="walkingsimulators">walking/simulators</title>
+		<text>what are walking simulators? # examples? # history? # relation to environmental storytelling? # the experience of walking?</text>
+		<link>https://quod.lib.umich.edu/c/ca/7523862.0011.023/--aesthetics-of-city-strolling?rgn=main;view=fulltext</link>
+		<link>https://en.wikipedia.org/wiki/Fl%C3%A2neur</link>
+		<link>http://benjaminflaneur.blogspot.com/</link>
+		<link>https://press-start.gla.ac.uk/index.php?journal=press-start&#x26;page=issue&#x26;op=view&#x26;path%5B%5D=9</link>
+		<link>https://www.zeit.de/digital/games/2016-11/walking-simulatoren-games-gone-home-dear-esther</link>
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>emergent/storytelling</title>
+		<text>what is emergent storytelling? # how does it structure the story? # examples?</text>
+		<link>https://www.gamedeveloper.com/design/-i-dwarf-fortress-i-figuring-out-how-to-simulate-the-universe-one-step-at-a-time</link>
+		<link>http://www.theatlantic.com/technology/archive/2016/02/artificial-universe-no-mans-sky/463308/</link>
+		<link>http://en.wikipedia.org/wiki/Procedural_generation</link>
+		<link>https://www.gamedeveloper.com/design/the-simulation-dream</link>
+		<link>http://hitboxteam.com/designing-game-narrative</link>
+		<link>http://gamestudies.org/1902/articles/soleradillon</link> <!-- The Open, the Closed and the Emergent -->
+		<link>https://www.crcpress.com/Procedural-Storytelling-in-Game-Design/Short-Adams/p/book/9781138595309</link>
+		<link>https://de.slideshare.net/games_rv/generative-storytelling-unendliche-geschichten</link> <!-- Riad Djemili & Johannes Kristmann -->
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>virtual reality</title>
+		<text>what is the narrative system of VR? # what kind of stories are possible? # how will VR change storytelling? # what will happen with other media? # examples?</text>
+		<link>http://www.theverge.com/2016/1/29/10871384/sundance-film-festival-2016-best-vr</link>
+		<link>https://www.gamedeveloper.com/game-platforms/games-festival-director-spends-48-hours-in-vr-doesn-t-puke</link>
+		<link>https://prezi.com/3wxapjl33ga2/experienceasprinciple_160114/</link>
+		<link>https://www.theguardian.com/technology/2015/dec/03/pixar-virtual-reality-storytelling-ed-catmull</link>
+		<link>http://www.theverge.com/2015/8/3/9088693/oculus-story-studio-henry-virtual-reality-review</link>
+		<link>https://web.archive.org/web/20230328223946/https://www.wired.com/brandlab/2015/11/nonny-de-la-pena-virtual-reality-empathy-and-the-next-journalism/</link>
+		<link>https://medium.com/@ax.mediaexperiments/the-storyteller-s-guide-to-the-virtual-reality-audience-19e92da57497#.xfkh8s6qj</link>
+		<link>http://gdcvault.com/play/1023656/Cognitive-Psychology-of-Virtual-Reality</link>
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>episodic/storytelling</title>
+		<text>what is the narrative system of vr? # what kind of stories are possible? # how will vr change storytelling? # what will happen with other media? # examples?</text>
+		<link>https://www.gamedeveloper.com/design/the-design-of-episodic-games-part-i-</link>
+		<link>https://www.gamedeveloper.com/design/the-design-of-episodic-games-part-ii-</link>
+		<link>http://dradiowissen.de/beitrag/episodische-games-spielen-in-haeppchen</link>
+		<link>https://en.wikipedia.org/wiki/Episodic_storytelling</link>
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>open world</title>
+		<text>how is the world structuring story? # what kind of stories are possible? # examples? # history?</text>
+		<link>https://www.gamedeveloper.com/design/in-open-world-game-design-curiosity-is-key-says-bethesda-s-todd-howard</link>
+		<link>https://killscreen.com/articles/umberto-eco-and-his-legacy-in-open-world-games/</link>
+		<link>https://www.wikiwand.com/en/Development_of_Grand_Theft_Auto_V#/Research_and_open_world_design</link>
+		<link>https://www.gamedeveloper.com/design/clint-hocking-speaks-out-on-the-virtues-of-exploration</link>
+		<link>https://www.youtube.com/watch?v=udF7XX_vTUE</link> <!-- Extra Credits: Open World Design -->
+		<link>https://gdcvault.com/play/1023989/Narrative-Sorcery-Coherent-Storytelling-in</link> <!-- Narrative Sorcery: Coherent Storytelling in an Open World - Jon Ingold -->
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>RPGs</title>
+		<text>what is the narrative strucure of RPGs? # what kind of stories are possible? # examples? # history? # how are RPGs shaping the experience?</text>
+		<link>http://www.evilhat.com/home/designers-dragons/</link>
+		<link>https://www.aaai.org/Papers/Symposia/Spring/2009/SS-09-06/SS09-06-009.pdf</link> <!-- The Personal Experience of Narratives in Role-Playing Games -->
+		<link>http://www.darkshire.net/jhkim/rpg/theory/narrative/paradigms.html</link>
+		<link>http://rampantgames.com/blog/?p=343</link> <!-- Dungeons and Desktops -->
+		<link>https://www.wikiwand.com/en/Role-playing_video_game</link>
+		<link>https://www.amazon.de/Playing-World-Simulating-Adventures-Role-Playing/dp/0615642047</link>
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>rockstar games</title>
+		<text>how are rockstar games telling stories? # how did their narrative system evolved? # story examples? # history?</text>
+		<link>https://www.youtube.com/watch?v=T4KW7hotM6o</link> <!-- History of GTA -->
+		<link>https://www.wikiwand.com/en/Rockstar_Advanced_Game_Engine</link>
+		<link>https://www.youtube.com/watch?v=EdV_2svrDVc</link> <!-- Open World Origins -->
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>interactive fiction</title>
+		<text>what is interactive fiction? # what is the narrative structure of IF? # history? # what is IF today?</text>
+		<link>http://inform7.com/</link>
+		<link>http://www.ifcomp.org/</link>
+		<link>https://www.theguardian.com/technology/2014/oct/22/interactive-fiction-awards-games</link>
+		<link>http://www.ifarchive.org/</link>
+		<link>https://www.youtube.com/watch?v=LRhbcDzbGSU</link> <!-- Get Lamp Documentary -->
+		<link>https://archive.org/details/infocomcabinet</link>
+		<link>http://maher.filfre.net/if-book/</link>
+		<link>https://www.wikiwand.com/en/Interactive_fiction</link>
+		<link>https://emshort.wordpress.com/how-to-play/</link>
+		<link>https://gdcvault.com/play/1022034/Harvesting-Interactive</link>
+		<link>https://www.gamasutra.com/view/news/293930/7_works_of_interactive_fiction_that_every_developer_should_study.php</link>
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>drama manager</title>
+		<text>what is a drama manager? # how does it structure the story? # is it only a dream? # history? # actual developments?</text>
+		<link>http://sleepisdeath.net/</link>
+		<link>http://www.interactivestory.net/</link>
+		<link>https://www.gamedeveloper.com/design/agitating-for-dramatic-change</link>
+		<link>https://www.gamedeveloper.com/design/book-review-chris-crawford-on-game-design</link>
+		<link>https://www.wikiwand.com/en/Fa%C3%A7ade_(interactive_story)</link>
+		<link>http://www.theverge.com/2016/3/10/11192774/demis-hassabis-interview-alphago-google-deepmind-ai</link>
+		<link>https://www.wikiwand.com/en/Holodeck</link>
+		<link>https://left4dead.fandom.com/wiki/The_Director</link>
+		<link>http://www.eurogamer.net/articles/2015-11-21-keith-stuart-on-ai-acting-and-the-weird-future-of-open-world-games</link>
+		<link>https://gdcvault.com/play/1025181/Level-Design-Workshop-Procedural-Regeneration</link> <!-- Procedural Regeneration: Matching the World to the Player (Heather Robertson) -->
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title forcedFilename="scriptstriggersevents">scripts,/triggers &#x26; events</title>
+		<text>what is a trigger? # how does it structure the story? # history? # actual developments? # classification?</text>
+		<link>https://docs.unity3d.com/Documentation/ScriptReference/Collider.OnTriggerEnter.html</link>
+		<link>http://www.worldofleveldesign.com/categories/wold-members-tutorials/petebottomley/udk-moving-doors.php</link>
+		<link>https://www.wikiwand.com/en/Scripted_sequence</link>
+		<link>texts/Winterstetter_BA_TriggerBasedScripting.pdf</link>
+		<link>http://www.csd.uwo.ca/~katchab/pubs/gameonna2008_storytelling.pdf</link>
+		<link>https://www.youtube.com/watch?v=2C-cIE7P1EE</link> <!-- Tommy Norberg: Understanding a LOOK AT system -->
+		<link>http://www.gdcvault.com/play/1022116/Level-Design-in-a-Day</link> <!-- Forrest Downling: Using LD Tools Expressively -->
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>gating</title>
+		<text>what is a gate? # how does it structure the story? # history? # actual developments?</text>
+		<link>https://emshort.blog/2016/02/15/set-check-or-gate-a-problem-in-personality-stats/</link>
+		<link>https://www.gamedeveloper.com/design/examining-gating-in-game-design</link>
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title forcedFilename="humansassystems">humans/as systems</title>
+		<text>how are humans represented in games? # how complex are they? # relationships?</text>
+		<link>https://www.gamedeveloper.com/design/7-progression-and-event-systems-that-every-developer-should-study</link>
+		<link>https://en.wikipedia.org/wiki/Experience_point</link>
+		<link>https://www.youtube.com/watch?v=S5camMoNw-o</link> <!-- Progression Systems - How Good Games Avoid Skinner Boxes - Extra Credits -->
+		<link>https://twitter.com/SorenJohnson/status/975898312577396736</link>
+		<link>https://en.wikipedia.org/wiki/Simulation_hypothesis</link>
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>roguelikes</title>
+		<text>what are roguelikes? # cagegorization? # possible stories?</text>
+		<link>http://www.roguebasin.com/index.php?title=Berlin_Interpretation</link>
+		<link>http://www.gamesofgrey.com/blog/?p=403</link>
+		<link>https://web.archive.org/web/20200127162839/http://roguebasin.roguelikedevelopment.org/index.php?title=Main_Page</link>
+		<link>https://www.youtube.com/watch?v=ewZnoyYAmBU</link> <!-- Holleman: The Art of Losing -->
+		<link>https://www.youtube.com/watch?v=G9FB5R4wVno</link> <!-- Game Makers Toolkit: Roguelikes and Progression -->
+		<link>https://www.gamedeveloper.com/design/how-to-make-a-roguelike</link>
+	</card>
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>space</title>
+		<text>are games spacial? # where is the camera? # classification? # theories?</text>
+		<link>https://en.wikipedia.org/wiki/Euclidean_space</link>
+		<link>https://www.transcript-verlag.de/978-3-8376-3972-8/raum/</link>
+		<link>texts/guenzel_raum_einleitung.pdf</link>
+		<link>https://en.wikipedia.org/wiki/Space</link>
+		<link>https://www.gamedeveloper.com/design/composition-in-level-design</link>
+		<link>http://narrativedesignporn.csongorb.com/atmosphere.html</link>
+		<link>texts/deWinter_Miyamoto_SpacialNarratives.pdf</link>
+	</card>
+
+	<!--
+		==================================
+		Examples
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>any game</title>
+		<text>what is the narrative structure of the game? # what is the story? # what is the theme? # is it well written?</text>
+		<link>http://www.mobygames.com/random/game?</link>
+		<link>https://www.kickstarter.com/projects/2093152267/the-metagame-discuss/posts/668406</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>citizen kane</title>
+		<text>what is the narrative structure of the film? # is it emotional?</text>
+		<link>https://www.wikiwand.com/en/Citizen_Kane</link>
+		<link>http://thecitizenkaneofvideogames.tumblr.com/</link>
+		<link>https://www.reclam.de/detail/978-3-15-017690-0/Orson_Welles______Citizen_Kane___und_die_Filmtheorie</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title forcedFilename="thewalkingdead">the walking/dead</title>
+		<text>what is the narrative structure of the walking dead? # in general? # the comics? # the games? # the evolution of the franchise?</text>
+		<link>https://www.wikiwand.com/de/The_Walking_Dead</link>
+		<link>texts/playandtalk_thewalkingdead.pdf</link>
+		<link>http://walkingdead.wikia.com/wiki/The_Walking_Dead_Wiki</link>
+		<link>https://mediarep.org/server/api/core/bitstreams/7dd7513d-d8fd-47b4-ba88-daeef243d61f/content</link> <!-- H.C. Schmidt: Origami Unicorn Revisited -->
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>star wars</title>
+		<text>what is the narrative structure of star wars? # in general? # the movies? # the evolution of star wars? # to big to grasp?</text>
+		<link>https://en.wikipedia.org/wiki/Star_Wars</link>
+		<link>http://starwars.wikia.com/wiki/Main_Page</link>
+		<link>http://www.jwrinzler.com/star-wars-books.html</link>
+		<link>http://www.jedipedia.net/</link>
+		<link>https://headgum.com/the-jeff-rubin-jeff-rubin-show/110-star-wars-toy-documentarian</link>
+		<link>https://vimeo.com/ondemand/plasticgalaxy</link> <!-- starting with 32:10 "show me the play value" -->
+		<link>https://jedibusiness.com/</link>
+		<link>https://rebels-among-the-stars.tumblr.com/post/168603444159/cute-little-things-from-the-star-wars-the-last</link>
+		<link>https://www.lego.com/en-us/themes/star-wars</link>
+		<link>https://www.polygon.com/star-wars/2020/12/21/22063580/star-wars-toys-action-figures-collectors-mandalorian-replicas</link>
+		<link>http://fanfic.theforce.net/</link>
+		<link>https://www.theatlantic.com/entertainment/archive/2017/12/the-fan-fiction-that-predicted-a-major-last-jedi-storyline/548885/</link>
+		<link>http://www.slashfilm.com/star-wars-the-force-awakens-international-trailer-analysis/</link>
+		<link>http://blog.fefe.de/?ts=a88bb1eb</link>
+		<link>https://www.wired.com/2008/08/ff-starwarscanon/</link>
+		<link>https://starwars.fandom.com/wiki/Golden_Books</link>
+		<link>http://starwars.wikia.com/wiki/Ralph_McQuarrie</link>
+		<link>https://www.youtube.com/watch?v=HlcjTqxzWEk</link> <!-- Ralph McQuarrie, Star Wars Concept Artist: Tribute to a Master (Part 1) -->
+		<link>https://medium.com/@benostrower/rey-is-a-kenobi-362b5af09849#.yj2qelneh</link>
+		<link>https://www.ted.com/talks/j_j_abrams_mystery_box?language=en</link>
+		<link>https://prezi.com/_mtgi7uv_49c/storyworlds_160204/</link>
+		<link>https://www.youtube.com/watch?v=SYaYStg66hc</link> <!-- Star Wars Explained: The Mandalorian Season 2 - 151 Easter Eggs -->
+		<link>https://web.archive.org/web/20180113064536/http://www.wired.co.uk/article/star-wars-expanded-universe-best</link>
+		<link>https://www.wired.com/story/mandalorian-dave-filoni-top-star-wars-moments/</link>
+		<link>https://www.vanityfair.com/hollywood/2019/11/dave-filoni-george-lucas-star-wars</link>
+		<link>http://henryjenkins.org/blog/2018/2/15/the-last-jedi-an-online-roundtable-part-5</link>
+		<link>http://starwars.wikia.com/wiki/The_Jedi_Path:_A_Manual_for_Students_of_the_Force_(real-life_book)</link>
+		<link>https://www.degruyter.com/document/doi/10.1515/9789048537433/html</link> <!-- Star Wars and the History of Transmedia Storytelling -->
+		<link>https://www.basicbooks.com/titles/chris-taylor/how-star-wars-conquered-the-universe/9780465097517/</link>
+		<link>https://en.wikipedia.org/wiki/Splinter_of_the_Mind%27s_Eye</link>
+		<link>https://io9.gizmodo.com/the-long-complicated-relationship-between-star-wars-an-1748168985</link> <!-- Marvel: Eight Against the World -->
+		<link>https://en.wikipedia.org/wiki/Thrawn_trilogy</link>
+		<link>http://starwars.wikia.com/wiki/The_Star_Wars_Sourcebook</link>
+		<link>https://en.wikipedia.org/wiki/Star_Wars:_The_Old_Republic</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>spelunky</title>
+		<text>what is the story of the game? # related topics? # replayability? # daily challenges?</text>
+		<link>http://spelunkyworld.com/dailychallenge/</link>
+		<link>http://spelunky.wikia.com/wiki/Spelunky_Wiki</link>
+		<link>http://www.rockpapershotgun.com/2013/10/22/geometry-of-death-spelunkys-level-generation-explained/</link>
+		<link>https://www.gamedeveloper.com/design/a-spelunky-game-design-analysis---pt-2</link>
+		<link>https://www.gamedeveloper.com/design/the-understated-genius-of-the-i-spelunky-i-daily-challenge</link>
+		<link>https://web.archive.org/web/20160229191009/https://spelunkyexplorersclub.com/</link>
+		<link>https://thespelunkyshowlike.libsyn.com/</link>
+		<link>http://tinysubversions.com/spelunkyGen/</link>
+		<link>https://www.polygon.com/2019/11/8/20953893/spelunky-most-important-game-of-the-decade-2010</link>
+		<link>https://www.youtube.com/watch?v=Uqk5Zf0tw3o</link> <!-- Game Makers Toolkit: Spelunky Level Generation -->
+		<link>https://www.gamedeveloper.com/design/explorer-gmk-an-excerpt-from-the-spelunky-book</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>gone home</title>
+		<text>what is the story of gone home? # related topics? # game writing?</text>
+  		<link>texts/playandtalk_gonehome.pdf</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>her story</title>
+		<text>what is her story? # related topics? # game writing?</text>
+		<link>http://gdcvault.com/play/1023430/Making-Her-Story-Telling-a</link>
+		<link>https://www.youtube.com/watch?v=EFvbN3K6EA8</link> <!-- Game Makers Toolkit: How Her Story Works -->
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>fallout 3</title>
+		<text>what is the narrative structure of fallour 3? # history?</text>
+		<link>https://www.wikiwand.com/en/Fallout_3</link>
+		<link>http://fallout.wikia.com/wiki/Fallout_3</link>
+		<link>http://www.critical-distance.com/2009/07/17/fallout-3/</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>firewatch</title>
+		<text>what is the story of the game? # related topics?</text>
+		<link>http://blog.camposanto.com/post/83913258057/lets-talk-about-henrys-fire-lookout-tower</link>
+		<link>http://blog.camposanto.com/post/132560976384/from-top-to-bottom-sierra-buttes-lookout-on-the</link>
+		<link>https://www.gamedeveloper.com/design/firewatch-critical-analysis</link>
+		<link>http://blog.camposanto.com/post/139202835394/firewatch-was-released-this-week-weve-been</link>
+		<link>http://www.polygon.com/2016/2/12/10968920/firewatch-rich-sommer-mad-men-campo-santo</link>
+		<link>https://www.gamedeveloper.com/design/how-firewatch-builds-character-through-map-design</link>
+		<link>http://www.polygon.com/2016/2/10/10960122/firewatch-map-first-thing</link>
+		<link>http://www.theverge.com/2016/2/10/10960366/firewatch-interview-ps4-pc</link>
+		<link>http://www.polygon.com/2016/2/10/10955100/does-firewatchs-ending-make-sense</link>
+		<link>http://www.polygon.com/2016/2/8/10940370/firewatch-photos-hey-there-delilah</link>
+		<link>https://www.gamedeveloper.com/design/video-designing-for-exploration-and-choice-in-i-firewatch-i-</link>
+		<link>https://radiosuperlevel.letscast.fm/episode/firewatch-on-off-beziehung</link>
+		<link>http://www.critical-distance.com/2016/02/14/february-14th-2/</link>
+		<link>https://www.youtube.com/watch?v=ZYnS3kKTcGg</link> <!-- Jane Ng: The Art of Firewatch-->
+		<link>http://blog.camposanto.com/post/140041752129/downloadable-printable-firewatch-maps-for-you-a</link>
+		<link>https://www.gamedeveloper.com/design/reading-the-end-of-firewatch</link>
+		<link>http://gdcvault.com/play/1023556/Level-Design-Workshop-Building-Firewatch</link>
+		<link>http://gdcvault.com/play/1023191/Making-the-World-of</link> <!-- Jane Ng: ...Firewatch -->
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>stanley parable</title>
+		<text>what is the story of the game? # related topics?</text>
+		<link>https://en.wikipedia.org/wiki/The_Stanley_Parable</link>
+		<link>https://thestanleyparable.fandom.com/wiki/Museum</link>
+		<link>https://twitter.com/hellocakebread</link>
+		<link>https://twitter.com/HonestWilliam</link>
+		<link>https://www.youtube.com/watch?v=cGgLllLyVmA</link> <!-- The Stanley Parable: Adam Sessler Interviews the Creators at GDC 2014 -->
+		<link>https://www.youtube.com/watch?v=dA0vZ7F6NqA</link> <!-- Film by Davey Wreden -->
+		<link>https://web.archive.org/web/20131020015719/http://www.stanleyparable.com/devblog/</link>
+		<link>https://gaming.stackexchange.com/questions/136182/how-many-endings-are-in-the-2013-edition-of-the-stanley-parable</link>
+		<link>http://www.linehollis.com/gamefiles/stanleyTwinable.html</link>
+		<link>https://www.moddb.com/mods/the-stanley-parable</link>
+		<link>https://www.vg247.com/2014/10/21/the-stanley-parable-has-sold-1-million-copies/</link>
+		<link>https://www.rockpapershotgun.com/2014/03/28/davey-wreden-william-pugh-the-stanley-parable-interview/</link>
+		<link>https://www.popmatters.com/179065-the-stanley-parable-an-examination-of-walking-spaces-2495688329.html</link>
+		<link>http://www.errantsignal.com/blog/?p=595</link>
+		<link>https://www.critical-distance.com/2014/12/30/this-year-in-videogame-blogging-2014/</link>
+		<link>http://www.electrondance.com/stop-crying-about-choice/</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title forcedFilename="storiestoldbygames">stories/told by games</title>
+		<text>what stories are games telling? # how? # are they really telling?</text>
+		<link>https://web.archive.org/web/20210804223500/https://www.abstractmachine.net/lexicon/exhausting_gameplay</link>
+		<link>https://tvtropes.org/pmwiki/pmwiki.php/Main/IdentityAmnesia</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>utopia</title>
+		<text>or is it dystopia? # aren't all worlds utopian?</text>
+		<link>https://en.wikipedia.org/wiki/Utopia</link>
+		<link>https://en.wikipedia.org/wiki/Dystopia</link>
+		<link>http://www.videogamenarrative.com/wp-content/uploads/2018/11/The-Concept-of-Utopia-in-Digital-Games.pdf</link> <!-- Gerald Farca -->
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>uncharted 4</title>
+		<text>what is the story of the game? # how is the story experienced? # related topics?</text>
+		<link>http://www.gamesindustry.biz/articles/2016-05-05-critical-consensus-uncharted-4-a-real-treasure</link>
+		<link>https://www.wikiwand.com/en/Uncharted_4:_A_Thief%27s_End</link>
+		<link>https://uncharted.fandom.com/wiki/Uncharted_Wiki:Main_Page</link>
+		<link>https://www.youtube.com/watch?v=6rTn8sj24wA</link> <!-- The Making of Uncharted 4 -->
+		<link>https://kotaku.com/highlights-of-two-uncharted-4-levels-one-traditional-a-1775514454</link>
+		<link>https://www.gnomon.edu/blog/discover-naughty-dog-s-environment-art-workflow-for-uncharted-4</link>
+		<link>http://gamingbolt.com/uncharted-4s-open-level-design-impacts-its-gameplay-in-a-big-way</link>
+		<link>http://www.gamesindustry.biz/articles/2016-11-04-uncharted-4-not-as-scripted-as-you-might-think</link>
+		<link>https://kotaku.com/the-art-of-uncharted-4-1777213424</link>
+		<link>https://kotaku.com/uncharted-4s-climbing-reviewed-1775667916</link>
+		<link>https://kotaku.com/a-technical-look-at-what-makes-uncharted-4-so-pretty-1775588247</link>
+		<link>http://allenchou.net/2016/05/a-brain-dump-of-what-i-worked-on-for-uncharted-4/</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title forcedFilename="thimbleweedpark">thimbleweed/park</title>
+		<text>Production / Gameplay / Design</text>
+		<link>https://blog.thimbleweedpark.com/archives</link>
+		<link>https://blog.thimbleweedpark.com/hints_and_dialogs.html</link>
+		<link>https://medium.com/@KonstantinosD/game-cities-the-urbanism-of-thimbleweed-park-a5b1b9c3debf</link>
+		<link>http://www.ign.com/articles/2017/02/10/thimbleweed-park-is-secretly-an-open-world-point-ana-click-game</link>
+		<link>http://store.steampowered.com/app/569860/Thimbleweed_Park/</link>
+		<link>https://www.gamedeveloper.com/business/q-a-i-maniac-mansion-i-creators-stick-to-their-roots-with-new-adventure-game</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>duckburg</title>
+		<text>what is the story of the game? # how is the story experienced? # related topics?</text>
+		<link>https://en.wikipedia.org/wiki/Donald_Duck_universe#Duckburg</link>
+		<link>https://de.wikipedia.org/wiki/Entenhausen</link>
+		<link>https://www.donald.org/</link>
+		<link>https://disney.fandom.com/wiki/Carl_Barks</link>
+		<link>https://career-end.donrosa.de/</link>
+		<link>https://en.wikipedia.org/wiki/Al_Taliaferro</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title forcedFilename="ashorthike">a/short hike</title>
+		<text>what is the story of the game? # how is the story experienced? # related topics?</text>
+		<link>https://ashorthike.com/</link>
+		<link>https://www.youtube.com/watch?v=ZW8gWgpptI8</link> <!-- Adam Robinson Yu: Post Mortem (GDC 2020) -->
+		<link>https://thespelunkyshowlike.libsyn.com/52-keeping-it-short-with-adam-robinson-yu</link>
+		<link>https://www.gamedeveloper.com/business/road-to-the-igf-adam-robinson-yu-s-i-a-short-hike-i-</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>small worlds</title>
+		<text>a world in the pocket? # why so many? # what is the appeal?</text>
+		<link>https://en.wikipedia.org/wiki/Pok%C3%A9mon</link>
+		<link>https://en.wikipedia.org/wiki/Tamagotchi</link>
+		<link>https://www.gamedeveloper.com/design/gdc-is-that-a-franchise-in-your-pocket-an-i-animal-crossing-wild-world-i-case-study</link> <!-- Animal Crossing -->
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>wimmlingen</title>
+		<text>is this a story or a world? # how is it an experience? # related topics?</text>
+		<link>https://www.wimmlingen.de/</link>
+	</card>
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title forcedFilename="anytransmediaproject">any transmedia/project</title>
+		<text>how are they interactive? # what type of transmedia projects are these? # related topics?</text>
+		<link>http://www.netwars-project.com/</link>
+		<link>https://en.wikipedia.org/wiki/Fort_McMoney</link>
+		<link>https://www.arte.tv/de/videos/RC-015448/webreportagen/</link>
+		<link>https://fieldtrip.tagesspiegel.de/</link>
+		<link>https://medium.com/curiouserinstitute/a-game-designers-analysis-of-qanon-580972548be5</link>
+	</card>
+
+</cards>

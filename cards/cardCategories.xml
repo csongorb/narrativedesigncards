@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<cardCategories>
+
+	<cardCategory color="000000">
+		<title>title</title>
+	</cardCategory>
+
+	<cardCategory row="1" color="412E83">
+		<title>classic</title>
+	</cardCategory>
+
+	<cardCategory row="1" color="60277F">
+		<title>jobs</title>
+	</cardCategory>
+
+	<cardCategory row="1" color="8854A4">
+		<title>game studies</title>
+	</cardCategory>
+
+	<cardCategory row="1" color="1D0E50">
+		<title>storyworlds</title>
+	</cardCategory>
+
+	<cardCategory row="2" color="2B487E">
+		<title>related</title>
+	</cardCategory>
+
+	<cardCategory row="2" color="0C234E">
+		<title>narrative mechanics</title>
+	</cardCategory>
+
+	<cardCategory row="2" color="4e0c23">
+		<title>examples</title>
+	</cardCategory>
+
+</cardCategories>
