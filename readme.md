@@ -1,93 +1,46 @@
-# Narrative Design Porn
+# Narrative Design Cards
 
 Brainstorming-cards related to **Narrative Design**.
 
 - arrange & think & discuss!
 - read between the cards!
 
-[`narrativedesignporn.csongorb.com`](http://narrativedesignporn.csongorb.com)
+Card data (XML files) to work together with https://github.com/csongorb/cardsimulator.
 
-## Version-History
+## Structure
+
+See: https://github.com/csongorb/cardsimulator
+
+## Changelog
 
 ### Todos / Ideas / Bugs
 
 Ideas for New Cards / Topics:
 
-- ???
+- ?
 
-### Release 1.6 (26. March 2021) - The Worldbuilding Update
+### Release 2.0 (Work in Progress)
 
-- links overhaul
-	- hopefully all broken links repaired
-	- lot of new links added
-- new cards
-	- quest design
-	- fiction or documentary
-	- atmosphere
-	- worldbuilding
-	- writers room
-	- simulation
-	- myth building
-	- space
-	- utopia
-	- thimbleweed park
-	- duckburg
-	- a short hike
-	- small worlds
-	- wimmlingen
-	- any transmedia project
-- added a lot of new PDFs
+### Previous Versions
 
-### Release 1.5 (8. March 2020)
+See: https://bitbucket.org/csongorb/porncreator/src/develop/01_input/narrativedesignporn/
 
-- links overhaul
-	- hopefully all broken links repaired
-	- lot of new links added
-- new cards
-	- Semiotics
-	- Roguelikes
-	- Walking Simulators
+## Credits
 
-### Release 1.4 (20. March 2018)
+- **Csongor Baranyai**  
+	- csongorb (at) gmail (dot) com  
+	- [csongorb.com](http://www.csongorb.com)
 
-- updated to Porn Creator 0.3
-	- added rows
-- new cards
-	- Adaptation
-	- Gating
-	- Uncharted 4
-	- Humans as Systems
+Thanks to all the **universities / schools / institutions** where I had the opportunity to teach courses, supervise students and projects, and refine the idea of the brainstorming cards. And of course a huge thank you to all the **students** who have contributed with all their comments and critiques... and who have tolerated my experiments.
 
-### Release 1.3 (11. May 2017)
+Additional design / coding:
 
-- improvements
-	- new / fixed links
+- **Christoph Maureder**
+	[christophmaureder.me/](https://christophmaureder.me/)
 
-### Release 1.2 (16. April 2017)
+## License
 
-- minor redesign
-	- adjusting to Porn Creator 0.22
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
-### Release 1.1 (April 2017)
-
-New Cards:
-
-- Citizen Kane
-- Any Game
-- Triggers & Events
-- Authorship
-- Stories Told by Games
-
-Misc:
-
-- changed "Sujet" into "Sujet & Diversity"
-- changed "Drama Machine" into "Drama Manager"
-- changed "Message Model" into "Game Aesthetics"
-- lot of typos
-- lot of improved questions
-- some reworked links
-
-### Release 1.0 (April 2016)
-
-- first release
-- primarily made for a course at the BTK for summer semester 2016
+All other media (images, software, etc.) remain the property of their copyright holders.
