@@ -1,0 +1,54 @@
+# Bumps the cardsimulator submodule to the newest commit on its main branch
+# and pushes the pointer update to main (which re-triggers the Pages deploy).
+
+# Run manually: Actions -> "Update cardsimulator submodule" -> Run workflow.
+
+# Needs: contents: write for the GITHUB_TOKEN; main must not be protected
+# against pushes from GitHub Actions.
+
+name: Update cardsimulator submodule
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-cardsimulator
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Update cardsimulator to latest main
+        run: |
+          git config submodule.cardsimulator.branch main
+          git submodule update --remote cardsimulator
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet -- cardsimulator; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push submodule update
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cardsimulator
+          git commit -m "Update cardsimulator submodule to latest main"
+          git push origin HEAD:main
+
+      - name: Nothing to update
+        if: steps.changes.outputs.changed == 'false'
+        run: echo "cardsimulator is already at the newest commit on main."

@@ -16,11 +16,12 @@ This repository holds **content only**. Everything that displays the cards comes
 - `texts/`: documents linked from the cards
 - `index.html`: tiny loader, identical in every card set
 - `.github/workflows/deploy.yml`: publishes the site to GitHub Pages on every push to `main`
+- `.github/workflows/update-cardsimulator.yml`: manual run (workflow_dispatch) that bumps the `cardsimulator` submodule to the newest commit on `main` and pushes the pointer to `main`
 - `cardsimulator/`: the simulator (submodule)
 
-Run locally with any static web server (the XML can't be loaded from `file://`): `python -m http.server`, then open http://localhost:8000/.
+Run locally with any static web server (the XML can't be loaded from `file://`).
 
-Update the simulator: `git -C cardsimulator pull origin main`, then commit the changed `cardsimulator` pointer.
+Update the simulator: run the *Update cardsimulator submodule* workflow on GitHub Actions, or locally with the help of your Git client.
 
 ## Changelog
 
@@ -32,7 +33,19 @@ Ideas for New Cards / Topics:
 
 ### Release 2.0 (Work in Progress)
 
-- repository is now content only (new card table from `cardsimulator`, `cards/cardset.xml`, GitHub Pages deploy workflow)
+Structure:
+
+- matches cardsimulator v0.5
+- restructured the main architecture, separated into
+	- cardsimulator
+	- narrativedesigncards (that includes cardsimulator as submodule)
+- this repository is now content only
+	- card visualisation comes from `cardsimulator`
+	- tiny loader `index.html`
+	- GitHub Pages deploy workflow
+
+Content:
+
 - category "examples" renamed to "case studies"
 - new color palette for the categories
 - new case studies: Clair Obscur: Expedition 33, Outer Wilds
@@ -50,10 +63,12 @@ See: https://bitbucket.org/csongorb/porncreator/src/develop/01_input/narrativede
 
 Thanks to all the **universities / schools / institutions** where I had the opportunity to teach courses, supervise students and projects, and refine the idea of the brainstorming cards. And of course a huge thank you to all the **students** who have contributed with all their comments and critiques... and who have tolerated my experiments.
 
-Additional design / coding:
+Additional design / content / coding:
 
+- **Haneyeh Sam**
+	- [haniyehsam.itch.io](https://haniyehsam.itch.io/)
 - **Christoph Maureder**
-	[christophmaureder.me/](https://christophmaureder.me/)
+	- [christophmaureder.me](https://christophmaureder.me/)
 
 ## License
 
